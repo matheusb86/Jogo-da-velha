@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container-left">
+        <div class="players">
+            <input type="text" class="input-player">
+            <div class="player2">
+                <input type="text" class="input-player2">
+                <input class="apple-switch" type="checkbox">
+            </div>
+        </div>
+        <div class="match-type">
+            <span class="tittle-match">Tipo de Partida</span>
+
+            <div class="choose-type">
+                <span>Melhor de 3</span>
+                <input class="apple-switch" type="checkbox">
+                <span>Melhor de 5</span>
+            </div>
+
+            <input class="Play-game" type="button" value="Jogar">
+        </div>
+
+        <div class="match-history">
+            <div class="tittle-history">
+                <span> Historico de partida</span>
+            </div>
+            <div class="lastwinner">
+                <div class="winner-player">
+                    <span class="winner">Vencedor</span>
+                    <span class="champion-message">Primeiro Quadrado</span>
+                </div>
+                <div class="champion-scenario">
+                    <span>Cenario</span>
+                </div>
+            </div>
+            <div class="lastwinner">
+                <div class="winner-player">
+                    <span class="winner">Vencedor</span>
+                    <span class="champion-message">Primeiro Quadrado</span>
+                </div>
+                <div class="champion-scenario">
+                    <span>Cenario</span>
+                </div>
+            </div>
+        </div>
+        <input class="reiniciar" type="button" value="Reiniciar">
+
+    </section>
+    <section class="container-center">
+        <div class="scoreboard">
+            <Span class="fixed-score">Placar</Span>
+            <div class="points">
+                <span class="pontsP1">01</span>
+                <span class="scoreboard-winner">Jogador 1</span>
+                <span class="pontsP2">01</span>
+            </div>
+
+        </div>
+        <div class="board">
+            <span class="board-item board-item-0">X</span>
+            <span class="board-item board-item-1">O</span>
+            <span class="board-item board-item-2"></span>
+            <span class="board-item board-item-3"></span>
+            <span class="board-item board-item-4"></span>
+            <span class="board-item board-item-5"></span>
+            <span class="board-item board-item-6"></span>
+            <span class="board-item board-item-7"></span>
+            <span class="board-item board-item-8"></span>
+        </div>
+
+    </section>
+    <section class="container-right">
+        <div class="tittle-history">
+            <h1>Historico de Jogada</h1>
+        </div>
+        <div class="plays">
+            <div class="play-match">
+                <div class="played">
+                    <Span>O</Span>
+                </div>
+                <div class="info-played">
+                    <span  class="player">Jogador 1</span>
+                    <Span class="place-play">Primeiro Quadrado</Span>
+                </div>
+
+            </div>
+            <div class="play-match">
+                <div class="played">
+                    <Span>X</Span>
+                </div>
+                <div class="info-played">
+                    <span class="player">Jogador 2</span>
+                    <Span class="place-play">Primeiro Quadrado</Span>
+                </div>
+
+            </div>
+            <div class="play-match">
+                <div class="played">
+                    <Span>O</Span>
+                </div>
+                <div class="info-played">
+                    <span class="player">Jogador 1</span>
+                    <Span class="place-play">Primeiro Quadrado</Span>
+                </div>
+
+            </div>
+            <div class="play-match">
+                <div class="played">
+                    <Span>X</Span>
+                </div>
+                <div class="info-played">
+                    <span class="player">Jogador 2</span>
+                    <Span class="place-play">Primeiro Quadrado</Span>
+                </div>
+
+            </div>
+            <div class="play-match">
+                <div class="played">
+                    <Span>O</Span>
+                </div>
+                <div class="info-played">
+                    <span class="player">Jogador 1</span>
+                    <Span class="place-play">Primeiro Quadrado</Span>
+                </div>
+
+            </div>
+            <div class="play-match">
+                <div class="played">
+                    <Span>X</Span>
+                </div>
+                <div class="info-played">
+                    <span class="player">Jogador 2</span>
+                    <Span class="place-play">Primeiro Quadrado</Span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
