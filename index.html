@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300&family=Ubuntu:wght@400;500&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+    <article class="left">
+        <section class="players">
+            <input type="text" class="input-player-1" placeholder="Jogador 1">
+            <div class="input-player-2">
+                <input type="text" placeholder="Jogador 2" class="name-player-2">
+
+                <label class="switch">
+                    <div class="switch-wrapper">
+                        <input type="checkbox" class="checkbox-bot">
+                        <span class="switch-button">
+                    </div>
+                </label>
+
+
+            </div>
+
+            <h3 class="type-match">Tipo de partida</h3>
+            <div class="type-match-area">
+                <span>Melhor de 3</span>
+
+                <label class="switch">
+                    <div class="switch-wrapper">
+                        <input type="checkbox" class="checkbox-md">
+                        <span class="switch-button switch-button-border">
+                    </div>
+                </label>
+
+                <span>Melhor de 5</span>
+            </div>
+
+            <button class="play-btn">Jogar</button>
+            <h3 class="match-history-title">Histórico de Partidas</h3>
+
+
+            <div class="match-history">
+
+            </div>
+
+            </div>
+
+            <button class="restart-btn">Reiniciar</button>
+
+        </section>
+
+        <section class="center">
+            <div class="scoreboard">
+                <h2 class="scoreboard-title">Placar</h2>
+
+                <div class="scoreboard-area">
+                    <span class="score-p1">00</span>
+                    <span class="player">Vencedor</span>
+                    <span class="score-p2">00</span>
+                </div>
+
+
+            </div>
+
+            <div class="battlefield">
+                <div class="square square-0"></div>
+                <div class="square square-1"></div>
+                <div class="square square-2"></div>
+                <div class="square square-3"></div>
+                <div class="square square-4"></div>
+                <div class="square square-5"></div>
+                <div class="square square-6"></div>
+                <div class="square square-7"></div>
+                <div class="square square-8"></div>
+            </div>
+
+        </section>
+
+        <section class="right">
+            <h3 class="history-title">Histórico de Jogadas</h3>
+            <div class="box-history-list">
+
+            </div>
+        </section>
+
+    </article>
+    <script src="index.js"></script>
+</body>
+
+</html>
